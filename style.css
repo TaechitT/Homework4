@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav     {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.menu span {
+    padding: 5px;
+}
+.icon{
+    border: 1px solid gray;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    left: 10px;
+}
+.fa-trash-can{
+    position: relative;
+    top: 5px;
+}
+.box1{
+    border: 1px solid rgb(204, 201, 201);
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 8px;
+}
+.wall{
+    border: 1px solid rgb(216, 194, 194);
+    background: linear-gradient(#42da31,rgb(221, 255, 1));
+    width: 250px;
+    height: 180px;
+    padding: 50px;
+    border-radius: 8px;
+}
+.star p{
+    padding-top: 100px;
+}
+.box2{
+    border: 1px solid rgb(204, 201, 201);
+    width: 550px;
+    height: 300px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: 30px;
+}
+button{
+        box-shadow:inset 0px 1px 0px 0px #efdcfb;
+        background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+        background-color:#ffffff;
+        border-radius:6px;
+        border:1px solid #32fc24;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:15px;
+        font-weight:bold;
+        padding:6px 24px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #9752cc;
+        color: #09df3e;
+}
+.button2{
+        box-shadow:inset 0px 1px 0px 0px #caefab;
+        background:linear-gradient(to bottom, #18f200 5%, #73ff00 100%);
+        background-color:#18f200;
+        border-radius:6px;
+        border:1px solid #00fc19;
+        display:inline-block;
+        cursor:pointer;
+        color:#000000;
+        font-family:Arial;
+        font-size:15px;
+        font-weight:bold;
+        padding:6px 24px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #aade7c;
+        margin-top: 50px;
+        text-align: center;
+        
+}
+.bott{
+    display: flex;
+    justify-content: space-between;
+}
+.login{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.big{
+    font-size: 24px;
+    color: #13c706;
+}
+input{
+    width: 300px;
+}
+.apply{
+    width: 80px;
+}
